@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/Jr-source/Budget-Trackers#readme",
   "dependencies": {
+    "compression": "^1.7.4",
     "express": "^4.17.1",
     "logger": "0.0.1",
     "mongoose": "^5.12.2",
+    "morgan": "^1.10.0",
     "require": "^2.4.20"
   }
 }
