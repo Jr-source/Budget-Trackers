@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 // mongoose.connect("mongodb://localhost/salty-everglades", {
-mongoose.connect(process.env.MONGODB_URI ||"mongodb://localhost/budget", {
+mongoose.connect(process.env.MONGODB_URI ||"mongodb://localhost/salty-everglades", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
