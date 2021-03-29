@@ -14,8 +14,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 app.use(express.static("public"));
-
-mongoose.connect("mongodb://localhost/salty-everglades", {
+// mongoose.connect("mongodb://localhost/salty-everglades", {
+mongoose.connect("mongodb://localhost/budget", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
