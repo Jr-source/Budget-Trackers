@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Jr-source/Budget-Trackers/issues"
   },
-  "homepage": "https://github.com/Jr-source/Budget-Trackers#readme"
+  "homepage": "https://github.com/Jr-source/Budget-Trackers#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
