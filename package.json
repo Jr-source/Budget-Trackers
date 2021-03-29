@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/Jr-source/Budget-Trackers#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "logger": "0.0.1",
+    "mongoose": "^5.12.2",
+    "require": "^2.4.20"
   }
 }
